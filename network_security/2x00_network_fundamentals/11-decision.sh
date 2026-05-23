@@ -1,4 +1,4 @@
-№!/bin/bash
+#!/bin/bash
 if [ -z "$1" ]; then
     echo "İstifadə qaydası: $0 <IP_ADDRESS>"
     exit 1
