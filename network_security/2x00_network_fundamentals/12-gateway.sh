@@ -1,0 +1,2 @@
+#!/bin/bash
+ip route | grep "default via" | awk '{print $3}'
